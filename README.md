@@ -36,7 +36,7 @@ sh compile_pointops.sh
 * Performance:
 <table style="width:100%">
   <thead>
-    <tr style="text-align: center;">
+    <tr>
       <th>Model</th>
       <th>Accuracy</th>
       <th>#Params</th>
@@ -47,7 +47,7 @@ sh compile_pointops.sh
     </tr>
   </thead>
   <tbody>
-    <tr style="text-align: center; vertical-align: middle;">
+    <tr>
       <td><a href="https://github.com/ajhamdi/MVTN">MVTN</a></td>
       <td>82.8</td>
       <td>4.24M</td>
@@ -56,7 +56,7 @@ sh compile_pointops.sh
       <td>N/A</td>
       <td><a href="https://github.com/ajhamdi/MVTN/blob/master/results/checkpoints/scanobjectnn/model-00029.pth">link</a></td>
     </tr>
-    <tr style="text-align: center; vertical-align: middle;">
+    <tr>
       <td><a href="https://github.com/ma-xu/pointMLP-pytorch">PointMLP</a></td>
       <td>85.7</td>
       <td>12.6M</td>
@@ -65,7 +65,7 @@ sh compile_pointops.sh
       <td><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
       <td><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
     </tr>
-    <tr style="text-align: center; vertical-align: middle;">
+    <tr>
       <td>PointNet++ SSG</td>
       <td>77.9</td>
       <td>1.475M</td>
@@ -74,7 +74,7 @@ sh compile_pointops.sh
       <td>N/A</td>
       <td>N/A</td>
     </tr>
-    <tr style="text-align: center; vertical-align: middle;">
+    <tr>
       <td><b>Umbrella RepSurf</b> (PointNet++ SSG)</td>
       <td><b>84.87</b></td>
       <td>1.483M</td>
@@ -83,7 +83,7 @@ sh compile_pointops.sh
       <td><a href="https://drive.google.com/file/d/1qJK8T3dhF6177Xla227aXPEeNtyNssLF/view?usp=sharing">google drive</a></td>
       <td><a href="https://drive.google.com/file/d/17UDArfvNVjrJBTjr_HdxcOQipn0DWMMf/view?usp=sharing">google drive (6MB)</a></td>
     </tr>
-    <tr style="text-align: center; vertical-align: middle;">
+    <tr>
       <td><b>Umbrella RepSurf</b> (PointNet++ SSG, 2x)</td>
       <td><b>86.05</b></td>
       <td>6.806M</td>
