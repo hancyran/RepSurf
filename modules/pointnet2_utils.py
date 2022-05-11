@@ -4,11 +4,12 @@ Date: 05/10/2022
 """
 
 import torch
+
 try:
-    from pointops.functions.pointops import furthestsampling, gathering, ballquery, knnquery_naive, knnquery, \
+    from modules.pointops.functions.pointops import furthestsampling, gathering, ballquery, knnquery, \
         grouping, interpolation, nearestneighbor
 except:
-    pass
+    raise Exception('Failed to load pointops')
 
 
 def pc_normalize(pc, norm='instance'):

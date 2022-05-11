@@ -13,27 +13,31 @@ The pytorch official implementation for "Surface Representation for Point Clouds
 
 We tested under the environment:
 
-* python 3.6
-* pytorch 1.5.0
+* python 3.7
+* pytorch 1.6.0
 * cuda 10.1
-* gcc 7.3.1
+* gcc 7.2.0
+* h5py
 
-### Compile
-
-Compile cuda-based point operators:
+For anaconda user, initialize the environment by:
 
 ```
-sh compile_pointops.sh
+sh init.sh
 ```
 
-**Note**: if the package of pointops cannot be found globally, maybe you need to move the folder from 
-**./modules/pointops** to **/usr/local/lib64/python3.6/site-packages** manually.
+Or you can manually install the above packages and compile the cuda-based point operators by:
+
+```
+cd modules/pointops
+python3 setup.py install
+```
 
 ## Classification
 
 ### ScanObjectNN
 
 * Performance:
+
 <table style="width:100%">
   <thead>
     <tr>
@@ -101,6 +105,7 @@ sh compile_pointops.sh
 ```
 wget http://download.cs.stanford.edu/orion/scanobjectnn/h5_files.zip
 unzip h5_files.zip
+ln -s [PATH]/h5_files data/ScanObjectNN
 ```
 
 **Note**: We conduct all experiments on the hardest variant of ScanObjectNN (**PB_T50_RS**).
@@ -120,8 +125,8 @@ sh scripts/repsurf/scanobjectnn/repsurf_ssg_umb_2x.sh
 
 ## Visualization
 
-We provide several visualization results in the folder **./visualization** for a closer look at the construction of RepSurf.
-
+We provide several visualization results in the folder **./visualization** for a closer look at the construction of
+RepSurf.
 
 ## TODO
 
@@ -130,8 +135,11 @@ We provide several visualization results in the folder **./visualization** for a
 - [ ] Detection on ScanNet / SUN RGB-D based on [GroupFree3D](https://github.com/zeliu98/Group-Free-3D)
 
 ## Acknowledgment
-We use library [pointops](https://github.com/hszhao/PointWeb/tree/master/lib/pointops) from [PointWeb](https://github.com/hszhao/PointWeb). 
 
+We use part of the library [pointops](https://github.com/hszhao/PointWeb/tree/master/lib/pointops)
+from [PointWeb](https://github.com/hszhao/PointWeb).
 
 ## License
-RepSurf is under the Apache-2.0 license. Please contact the primary author **Haoxi Ran (ranhaoxi@gmail.com)** for commercial use.
+
+RepSurf is under the Apache-2.0 license. Please contact the primary author **Haoxi Ran (ranhaoxi@gmail.com)** for
+commercial use.

@@ -25,8 +25,8 @@ def parse_args():
     parser = argparse.ArgumentParser('RepSurf')
     # Basic
     parser.add_argument('--log_dir', type=str, default=None, help='experiment root')
-    parser.add_argument('--data_dir', type=str, default='./', help='data dir')
-    parser.add_argument('--log_root', type=str, default='./', help='log root dir')
+    parser.add_argument('--data_dir', type=str, default='./data', help='data dir')
+    parser.add_argument('--log_root', type=str, default='./log', help='log root dir')
     parser.add_argument('--model', default='repsurf.scanobjectnn.repsurf_ssg_umb',
                         help='model file name [default: repsurf_ssg_umb]')
     parser.add_argument('--gpus', nargs='+', type=str, default=None)
