@@ -48,49 +48,49 @@ sh compile_pointops.sh
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://github.com/ajhamdi/MVTN">MVTN</a></td>
-      <td>82.8</td>
-      <td>4.24M</td>
-      <td>None</td>
-      <td><a href="https://github.com/ajhamdi/MVTN/blob/master/models/mvtn.py">link</a></td>
-      <td>N/A</td>
-      <td><a href="https://github.com/ajhamdi/MVTN/blob/master/results/checkpoints/scanobjectnn/model-00029.pth">link</a></td>
+      <td align="center"><a href="https://github.com/ajhamdi/MVTN">MVTN</a></td>
+      <td align="center">82.8</td>
+      <td align="center">4.24M</td>
+      <td align="center">None</td>
+      <td align="center"><a href="https://github.com/ajhamdi/MVTN/blob/master/models/mvtn.py">link</a></td>
+      <td align="center">N/A</td>
+      <td align="center"><a href="https://github.com/ajhamdi/MVTN/blob/master/results/checkpoints/scanobjectnn/model-00029.pth">link</a></td>
     </tr>
     <tr>
-      <td><a href="https://github.com/ma-xu/pointMLP-pytorch">PointMLP</a></td>
-      <td>85.7</td>
-      <td>12.6M</td>
-      <td>Scale, Shift</td>
-      <td><a href="https://github.com/ma-xu/pointMLP-pytorch/blob/main/classification_ScanObjectNN/models/pointmlp.py">link</a></td>
-      <td><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
-      <td><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
+      <td align="center"><a href="https://github.com/ma-xu/pointMLP-pytorch">PointMLP</a></td>
+      <td align="center">85.7</td>
+      <td align="center">12.6M</td>
+      <td align="center">Scale, Shift</td>
+      <td align="center"><a href="https://github.com/ma-xu/pointMLP-pytorch/blob/main/classification_ScanObjectNN/models/pointmlp.py">link</a></td>
+      <td align="center"><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
+      <td align="center"><a href="https://web.northeastern.edu/smilelab/xuma/pointMLP/checkpoints/fixstd/scanobjectnn/pointMLP-20220204021453/">link</a></td>
     </tr>
     <tr>
-      <td>PointNet++ SSG</td>
-      <td>77.9</td>
-      <td>1.475M</td>
-      <td>Rotate, Jitter</td>
-      <td><a href="https://github.com/hkust-vgd/scanobjectnn/blob/master/pointnet2/models/pointnet2_cls_ssg.py">link</a></td>
-      <td>N/A</td>
-      <td>N/A</td>
+      <td align="center">PointNet++ SSG</td>
+      <td align="center">77.9</td>
+      <td align="center">1.475M</td>
+      <td align="center">Rotate, Jitter</td>
+      <td align="center"><a href="https://github.com/hkust-vgd/scanobjectnn/blob/master/pointnet2/models/pointnet2_cls_ssg.py">link</a></td>
+      <td align="center">N/A</td>
+      <td align="center">N/A</td>
     </tr>
     <tr>
-      <td><b>Umbrella RepSurf</b> (PointNet++ SSG)</td>
-      <td><b>84.87</b></td>
-      <td>1.483M</td>
-      <td>None</td>
-      <td><a href="models/repsurf/scanobjectnn/repsurf_ssg_umb.py">link</a></td>
-      <td><a href="https://drive.google.com/file/d/1qJK8T3dhF6177Xla227aXPEeNtyNssLF/view?usp=sharing">google drive</a></td>
-      <td><a href="https://drive.google.com/file/d/17UDArfvNVjrJBTjr_HdxcOQipn0DWMMf/view?usp=sharing">google drive (6MB)</a></td>
+      <td align="center"><b>Umbrella RepSurf</b> (PointNet++ SSG)</td>
+      <td align="center"><b>84.87</b></td>
+      <td align="center">1.483M</td>
+      <td align="center">None</td>
+      <td align="center"><a href="models/repsurf/scanobjectnn/repsurf_ssg_umb.py">link</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/1qJK8T3dhF6177Xla227aXPEeNtyNssLF/view?usp=sharing">google drive</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/17UDArfvNVjrJBTjr_HdxcOQipn0DWMMf/view?usp=sharing">google drive (6MB)</a></td>
     </tr>
     <tr>
-      <td><b>Umbrella RepSurf</b> (PointNet++ SSG, 2x)</td>
-      <td><b>86.05</b></td>
-      <td>6.806M</td>
-      <td>None</td>
-      <td><a href="models/repsurf/scanobjectnn/repsurf_ssg_umb_2x.py">link</a></td>
-      <td><a href="https://drive.google.com/file/d/15HwmAi1erL68G08dzNQILSipwCIDfNAw/view?usp=sharing">google drive</a></td>
-      <td><a href="https://drive.google.com/file/d/1yGPNt1REzxVwn8Guw-PFHFcwxvfueWgf/view?usp=sharing">google drive (27MB)</a></td>
+      <td align="center"><b>Umbrella RepSurf</b> (PointNet++ SSG, 2x)</td>
+      <td align="center"><b>86.05</b></td>
+      <td align="center">6.806M</td>
+      <td align="center">None</td>
+      <td align="center"><a href="models/repsurf/scanobjectnn/repsurf_ssg_umb_2x.py">link</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/15HwmAi1erL68G08dzNQILSipwCIDfNAw/view?usp=sharing">google drive</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/1yGPNt1REzxVwn8Guw-PFHFcwxvfueWgf/view?usp=sharing">google drive (27MB)</a></td>
     </tr>
   </tbody>
 </table>
