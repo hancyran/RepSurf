@@ -76,7 +76,7 @@ sh compile_pointops.sh
     </tr>
     <tr style="text-align: center;">
       <td><b>Umbrella RepSurf</b> (PointNet++ SSG)</td>
-      <td><b>84.87</b> <br>(paper: 84.6)</td>
+      <td><b>84.87</b></td>
       <td>1.483M</td>
       <td>None</td>
       <td><a href="models/repsurf/scanobjectnn/repsurf_ssg_umb.py">repsurf_ssg_umb</a></td>
