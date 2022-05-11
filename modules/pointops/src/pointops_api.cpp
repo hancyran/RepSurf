@@ -8,8 +8,6 @@
 #include "interpolation/interpolation_cuda_kernel.h"
 #include "knnquery/knnquery_cuda_kernel.h"
 #include "knnquery_heap/knnquery_heap_cuda_kernel.h"
-#include "labelstat/labelstat_cuda_kernel.h"
-#include "featuredistribute/featuredistribute_cuda_kernel.h"
 
 
 PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
@@ -30,12 +28,4 @@ PYBIND11_MODULE(TORCH_EXTENSION_NAME, m) {
     m.def("nearestneighbor_cuda", &nearestneighbor_cuda_fast, "nearestneighbor_cuda_fast");
     m.def("interpolation_forward_cuda", &interpolation_forward_cuda_fast, "interpolation_forward_cuda_fast");
     m.def("interpolation_backward_cuda", &interpolation_backward_cuda, "interpolation_backward_cuda");
-
-    m.def("labelstat_idx_cuda", &labelstat_idx_cuda_fast, "labelstat_idx_cuda_fast");
-    m.def("labelstat_ballrange_cuda", &labelstat_ballrange_cuda_fast, "labelstat_ballrange_cuda_fast");
-    m.def("labelstat_and_ballquery_cuda", &labelstat_and_ballquery_cuda_fast, "labelstat_and_ballquery_cuda_fast");
-
-    m.def("featuredistribute_cuda", &featuredistribute_cuda, "featuredistribute_cuda");
-    m.def("featuregather_forward_cuda", &featuregather_forward_cuda, "featuregather_forward_cuda");
-    m.def("featuregather_backward_cuda", &featuregather_backward_cuda, "featuregather_backward_cuda");
 }
