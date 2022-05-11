@@ -75,7 +75,7 @@ sh compile_pointops.sh
       <td>N/A</td>
     </tr>
     <tr style="text-align: center;">
-      <td><b>Umbrella RepSurf</b> (PointNet SSG)</td>
+      <td><b>Umbrella RepSurf</b> (PointNet++ SSG)</td>
       <td><b>84.87</b> <br>(paper: 84.6)</td>
       <td>1.483M</td>
       <td>None</td>
