@@ -1,4 +1,4 @@
-# RepSurf - Surface Representation for Point Clouds [CVPR 2022 Oral]
+# RepSurf - Surface Representation for Point Clouds <br> [CVPR 2022 Oral]
 
 By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
 
