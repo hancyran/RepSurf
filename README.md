@@ -128,7 +128,7 @@ ln -s [PATH]/h5_files data/ScanObjectNN
 sh scripts/repsurf/scanobjectnn/repsurf_ssg_umb.sh
 ```
 
-* To train Umbrella RepSurf (2x setting):
+* To train Umbrella RepSurf (2x setting) on ScanObjectNN:
 
 ```
 sh scripts/repsurf/scanobjectnn/repsurf_ssg_umb_2x.sh
