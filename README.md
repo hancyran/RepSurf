@@ -11,7 +11,7 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 
 The pytorch official implementation of ["Surface Representation for Point Clouds"](http://arxiv.org/abs/2205.05740) 
 
-[arXiv](http://arxiv.org/abs/2205.05740) | [PDF](http://arxiv.org/pdf/2205.05740)  **NOTE: Sorry for the large PDF due to a conversion problem with arXiv. A new version is coming soon.**
+[arXiv](http://arxiv.org/abs/2205.05740) | [PDF](http://arxiv.org/pdf/2205.05740)
 
 
 <div align="center">
