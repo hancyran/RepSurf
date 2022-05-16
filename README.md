@@ -11,6 +11,9 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 
 The pytorch official implementation of ["Surface Representation for Point Clouds"](http://arxiv.org/abs/2205.05740) 
 
+> **3D Segmentation** (TODO): See [RepSurf for Segmentation](https://github.com/hancyran/RepSurf-Segmentation)
+
+
 [arXiv](http://arxiv.org/abs/2205.05740) | [PDF](http://arxiv.org/pdf/2205.05740)
 
 
