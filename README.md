@@ -19,7 +19,7 @@ The pytorch official implementation of ["Surface Representation for Point Clouds
   <img src="assets/teaser.png" width="600px">
 </div>
 
-## For Other Tasks, See:
+## Other Tasks:
 
 > **3D Segmentation** (ongoing): [RepSurf for Segmentation](https://github.com/hancyran/RepSurf-Segmentation)
 
