@@ -9,7 +9,7 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=surface-representation-for-point-clouds)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis-area5)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis-area5?p=surface-representation-for-point-clouds)
 
-The pytorch official implementation of ["Surface Representation for Point Clouds"](http://arxiv.org/abs/2205.05740) 
+The pytorch official implementation of ["Surface Representation for Point Clouds"](http://arxiv.org/abs/2205.05740). The repos of RepSurf on other tasks are coming:
 
 > **3D Segmentation** (TODO): See [RepSurf for Segmentation](https://github.com/hancyran/RepSurf-Segmentation)
 
