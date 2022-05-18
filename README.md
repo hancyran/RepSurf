@@ -149,7 +149,6 @@ RepSurf.
 
 - [ ] Classification on ModelNet40
 - [ ] Segmentation on S3DIS / ScanNet
-- [ ] Detection on ScanNet / SUN RGB-D based on [GroupFree3D](https://github.com/zeliu98/Group-Free-3D)
 
 ## Acknowledgment
 
