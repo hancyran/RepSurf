@@ -2,12 +2,12 @@
 
 By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=surface-representation-for-point-clouds)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=surface-representation-for-point-clouds)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=surface-representation-for-point-clouds)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=surface-representation-for-point-clouds)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=surface-representation-for-point-clouds)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis-area5)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis-area5?p=surface-representation-for-point-clouds)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=surface-representation-for-point-clouds) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=surface-representation-for-point-clouds) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-point-cloud-classification-on-modelnet40)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-modelnet40?p=surface-representation-for-point-clouds) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis?p=surface-representation-for-point-clouds) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=surface-representation-for-point-clouds) <br>
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis-area5)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis-area5?p=surface-representation-for-point-clouds) 
 
 The pytorch official implementation of ["Surface Representation for Point Clouds"](http://arxiv.org/abs/2205.05740). The repos of RepSurf on other tasks are coming:
 
