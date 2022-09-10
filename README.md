@@ -9,7 +9,8 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-scannetv2)](https://paperswithcode.com/sota/3d-object-detection-on-scannetv2?p=surface-representation-for-point-clouds) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/semantic-segmentation-on-s3dis-area5)](https://paperswithcode.com/sota/semantic-segmentation-on-s3dis-area5?p=surface-representation-for-point-clouds) 
 
-### The pytorch official implementation of "[Surface Representation for Point Clouds](http://arxiv.org/abs/2205.05740)" ( [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Ran_Surface_Representation_for_Point_Clouds_CVPR_2022_paper.pdf) | [arXiv](http://arxiv.org/abs/2205.05740) )
+### The pytorch official implementation of "[Surface Representation for Point Clouds](http://arxiv.org/abs/2205.05740)" 
+( [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Ran_Surface_Representation_for_Point_Clouds_CVPR_2022_paper.pdf) | [arXiv](http://arxiv.org/abs/2205.05740) )
 
 
 <div align="center">
