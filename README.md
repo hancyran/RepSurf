@@ -19,9 +19,9 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 
 
 ## News:
-- (**Sep 10** NEW :fire:) We have uploaded the implementation of RepSurf on S3DIS.
+- (**Sep 10** NEW :fire:) We have uploaded the implementation of RepSurf on S3DIS along with its training log and pretrained weights.
 - (**June 24** NEW :fire:) We sucessfully finished our Oral presentation at CVPR 2022!
-- (**May 11**) We uploaded the implementation of RepSurf on ScanObjectNN.
+- (**May 11**) We have uploaded the implementation of RepSurf on ScanObjectNN along with its training log and pretrained weights. 
 
 ## Tasks:
 
