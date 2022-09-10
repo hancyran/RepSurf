@@ -16,7 +16,6 @@ from pathlib import Path
 from dataset.ScanObjectNNDataLoader import ScanObjectNNDataLoader
 from modules.ptaug_utils import transform_point_cloud, scale_point_cloud, get_aug_args
 from modules.pointnet2_utils import sample
-
 from utils.utils import get_model, get_loss, set_seed, weight_init
 
 
@@ -38,15 +37,15 @@ def parse_args():
     parser.add_argument('--batch_size', type=int, default=64, help='batch size in training [default: 64]')
     parser.add_argument('--optimizer', type=str, default='Adam', help='optimizer for training [Adam, SGD]')
     parser.add_argument('--scheduler', type=str, default='step', help='scheduler for training')
-    parser.add_argument('--epoch', default=500, type=int, help='number of epoch in training [default: 200]')
+    parser.add_argument('--epoch', default=500, type=int, help='number of epoch in training [default: 500]')
     parser.add_argument('--learning_rate', default=0.001, type=float, help='learning rate in training [default: 0.001]')
     parser.add_argument('--decay_rate', type=float, default=1e-4, help='decay rate [default: 1e-4]')
     parser.add_argument('--decay_step', default=20, type=int, help='number of epoch per decay [default: 20]')
-    parser.add_argument('--n_workers', type=int, default=4, help='DataLoader Workers Number [default: 1024]')
+    parser.add_argument('--n_workers', type=int, default=4, help='DataLoader Workers Number [default: 4]')
     parser.add_argument('--init', type=str, default=None, help='initializer for model [kaiming, xavier]')
 
     # Evaluation
-    parser.add_argument('--min_val', type=int, default=100, help='Min val epoch [default: 0]')
+    parser.add_argument('--min_val', type=int, default=100, help='Min val epoch [default: 100]')
 
     # Augmentation
     parser.add_argument('--aug_scale', action='store_true', default=False,
@@ -62,8 +61,8 @@ def parse_args():
                         help='Whether to return center in surface abstraction [default: False]')
     parser.add_argument('--return_polar', action='store_true', default=False,
                         help='Whether to return polar coordinate in surface abstraction [default: False]')
-    parser.add_argument('--group_size', type=int, default=8, help='Size of umbrella group [default: 0]')
-    parser.add_argument('--umb_pool', type=str, default='sum', help='pooling for umbrella repsurf [mean, max]')
+    parser.add_argument('--group_size', type=int, default=8, help='Size of umbrella group [default: 8]')
+    parser.add_argument('--umb_pool', type=str, default='sum', help='pooling for umbrella repsurf [sum, mean, max]')
 
     return parser.parse_args()
 

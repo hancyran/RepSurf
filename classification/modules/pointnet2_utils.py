@@ -12,24 +12,6 @@ except:
     raise Exception('Failed to load pointops')
 
 
-def pc_normalize(pc, norm='instance'):
-    """
-    Batch Norm to Instance Norm
-    Normalize Point Clouds | Pytorch Version | Range: [-1, 1]
-
-    """
-    points = pc[:, :3, :]
-    centroid = torch.mean(points, dim=2, keepdim=True)
-    points = points - centroid
-    if norm == 'instance':
-        m = torch.max(torch.sqrt(torch.sum(points ** 2, dim=1)), dim=1)[0]
-        pc[:, :3, :] = points / m.view(-1, 1, 1)
-    else:
-        m = torch.max(torch.sqrt(torch.sum(points ** 2, dim=1)))
-        pc[:, :3, :] = points / m
-    return pc
-
-
 def square_distance(src, dst):
     """
     Calculate Squared distance between each two points.
@@ -41,14 +23,6 @@ def square_distance(src, dst):
     dist += torch.sum(src ** 2, -1).view(B, N, 1)
     dist += torch.sum(dst ** 2, -1).view(B, 1, M)
     return dist
-
-
-def euclidean_distance(src, dst):
-    """
-    Calculate Euclidean distance
-
-    """
-    return torch.norm(src.unsqueeze(-2) - dst.unsqueeze(-3), p=2, dim=-1)
 
 
 def index_points(points, idx, cuda=False, is_group=False):

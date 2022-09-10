@@ -8,11 +8,9 @@ from torch import nn
 from modules.pointnet2_utils import query_knn_point, index_points
 
 
-def _recons_factory(type, cuda=False):
+def _recons_factory(type):
     if type == 'knn':
         return knn_recons
-    # elif type == 'lknn':
-    #     return limited_knn_recons
     else:
         raise Exception('Not Implemented Reconstruction Type')
 
