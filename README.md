@@ -27,8 +27,8 @@ By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : c
 
 ### We conduct experiments of different tasks on different codebases:
 
-> Classification (./classification): **[3D Object Classification](./classification/README.md)** <br>
-> Segmentation (./segmentation): **[3D Semantic Segmentation](./segmentation/README.md)**
+> Classification: **[3D Object Classification](./classification/README.md)** <br>
+> Segmentation: **[3D Semantic Segmentation](./segmentation/README.md)**
 
 
 ## Visualization
