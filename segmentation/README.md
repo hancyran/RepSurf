@@ -57,7 +57,7 @@ sh init.sh
       <td align="center"><a href="./models/pointtransformer/pointtransformer.py">pointtransformer.py</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1cLQetUso-fVzlfcJODXlfV-7MXa3vl-Y/view?usp=sharing">google drive</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1umrMvmwLsexKUZytcMdE12ek8xIk8E3_/view?usp=sharing">google drive</a></td>
-      <td align="center"><a href="https://drive.google.com/file/d/1XnbRR2Yi6MFWVl5LVtBxLOTBN9qhuxlV/view?usp=sharing">google drive (30 MB)</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/1XnbRR2Yi6MFWVl5LVtBxLOTBN9qhuxlV/view?usp=sharing">google drive <br> (30 MB)</a></td>
     </tr>
     <tr>
       <td align="center">PointNet++ SSG (our settings)</td>
@@ -69,7 +69,7 @@ sh init.sh
       <td align="center"><a href="./models/pointnet2/pointnet2_ssg.py">pointnet2_ssg.py</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1xUkUB0iT-WYzzzR5yiWhZkSYPjjarKlC/view?usp=sharing">google drive</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1floQ53zgTxSs_nDn_MosIUWz4Rt7eHQx/view?usp=sharing">google drive</a></td>
-      <td align="center"><a href="https://drive.google.com/file/d/1hdj7G8dplCouHYor16pChd7pB8M4rodu/view?usp=sharing">google drive (4 MB)</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/1hdj7G8dplCouHYor16pChd7pB8M4rodu/view?usp=sharing">google drive <br> (4 MB)</a></td>
     </tr>
     <tr>
       <td align="center">PointNet++ SSG <b>w/ Umbrella RepSurf</b> (ours)</td>
@@ -81,7 +81,7 @@ sh init.sh
       <td align="center"><a href="./models/repsurf/repsurf_umb_ssg.py">repsurf_umb_ssg.py</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1C1mG7XFsJAiQYHMNuA8bVitEuY4TGXKY/view?usp=sharing">google drive</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1mNgmWhYcp2njwJybkGjLVModERCR9fr8/view?usp=sharing">google drive</a></td>
-      <td align="center"><a href="https://drive.google.com/file/d/1pmXBt4wHKpC5llmD6pMNo2NmZZKNIQaq/view?usp=sharing">google drive (4 MB)</a></td>
+      <td align="center"><a href="https://drive.google.com/file/d/1pmXBt4wHKpC5llmD6pMNo2NmZZKNIQaq/view?usp=sharing">google drive <br> (4 MB)</a></td>
     </tr>
   </tbody>
 </table>
