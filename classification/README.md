@@ -1,8 +1,9 @@
 # RepSurf for Classification <br>
 
-By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
+By *[Haoxi Ran\*](https://hancyran.github.io/) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
 
-[arXiv](http://arxiv.org/abs/2205.05740) | [PDF](http://arxiv.org/pdf/2205.05740)
+### [PDF](https://openaccess.thecvf.com/content/CVPR2022/papers/Ran_Surface_Representation_for_Point_Clouds_CVPR_2022_paper.pdf) | [arXiv](http://arxiv.org/abs/2205.05740)
+
 
 ## Preparation
 
