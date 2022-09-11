@@ -1,6 +1,6 @@
 # RepSurf - Surface Representation for Point Clouds <br> [CVPR 2022 Oral]
 
-By *[Haoxi Ran\*](https://github.com/hancyran) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
+By *[Haoxi Ran\*](https://hancyran.github.io/) , Jun Liu, Chengjie Wang* ( * : corresponding contact)
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-point-cloud-classification-on-scanobjectnn)](https://paperswithcode.com/sota/3d-point-cloud-classification-on-scanobjectnn?p=surface-representation-for-point-clouds) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/surface-representation-for-point-clouds/3d-object-detection-on-sun-rgbd-val)](https://paperswithcode.com/sota/3d-object-detection-on-sun-rgbd-val?p=surface-representation-for-point-clouds) <br>
