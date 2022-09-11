@@ -23,13 +23,6 @@ For anaconda user, initialize the conda environment **repsurf-cls** by:
 sh init.sh
 ```
 
-Or you can manually install the above packages and compile the cuda-based point operators by:
-
-```
-cd modules/pointops
-python3 setup.py install
-```
-
 ## Experiments
 
 ### ScanObjectNN (Data & Logs: [Google Drive](https://drive.google.com/drive/folders/1DGWT9W46MKVI0-lu18hJhB-R3BFVWuCs?usp=sharing))
