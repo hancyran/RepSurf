@@ -93,7 +93,7 @@ sh init.sh
 3. To speed up the training process, we apply Sectorized FPS (in the first stage) for all above methods. It can save 30～40% training time and does not affect the performance.   
 4. To lessen the instability from grid sampling during inference, we apply median filtering to all the above implementations. Besides, it can slightly improve the results (~0.4 mIoU).
 
-* (firstly install gdown by **pip install gdown** and) download dataset:
+* To (firstly install gdown by **pip install gdown** and) download dataset:
 
 ```
 cd ./data/S3DIS
@@ -101,13 +101,13 @@ gdown https://drive.google.com/u/1/uc?id=1UDM-bjrtqoIR9FWoIRyqLUJGyKEs22fP
 tar zxf s3dis.tar.gz && rm s3dis.tar.gz
 ```
 
-* To train one model (Our Umbrella RepSurf, Point Transformer, PointNet2) for S3DIS Area-5:
+* To train one model (**Umbrella RepSurf, Point Transformer, PointNet2**) for S3DIS Area-5:
 
 ```
 sh scripts/s3dis/train_[MODEL].sh  # MODEL: repsurf_umb, pointnet2, pointtransformer
 ```
 
-* To test one model (Our Umbrella RepSurf, Point Transformer, PointNet2) for S3DIS Area-5 on whole scenes:
+* To test one model (**Our Umbrella RepSurf, Point Transformer, PointNet2**) for S3DIS Area-5 on whole scenes:
 
 ```
 sh scripts/s3dis/test_[MODEL].sh  # MODEL: repsurf_umb, pointnet2, pointtransformer
