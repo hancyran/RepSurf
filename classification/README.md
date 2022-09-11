@@ -102,13 +102,13 @@ ln -s [PATH]/h5_files data/ScanObjectNN
 **Note**: We conduct all experiments on the hardest variant of ScanObjectNN (**PB_T50_RS**).
 <br>
 
-* To train Umbrella RepSurf on ScanObjectNN:
+* To train **Umbrella RepSurf** on ScanObjectNN:
 
 ```
 sh scripts/scanobjectnn/repsurf_ssg_umb.sh
 ```
 
-* To train Umbrella RepSurf (2x setting) on ScanObjectNN:
+* To train **Umbrella RepSurf (2x setting)** on ScanObjectNN:
 
 ```
 sh scripts/scanobjectnn/repsurf_ssg_umb_2x.sh
