@@ -16,7 +16,7 @@ from pathlib import Path
 from dataset.ScanObjectNNDataLoader import ScanObjectNNDataLoader
 from modules.ptaug_utils import transform_point_cloud, scale_point_cloud, get_aug_args
 from modules.pointnet2_utils import sample
-from utils.utils import get_model, get_loss, set_seed, weight_init
+from util.utils import get_model, get_loss, set_seed, weight_init
 
 
 def parse_args():

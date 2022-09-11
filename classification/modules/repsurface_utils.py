@@ -287,10 +287,6 @@ class UmbrellaSurfaceConstructor(nn.Module):
         if self.return_dist:
             group_pos = cal_const(group_normal, group_center)
             group_normal, group_center, group_pos = check_nan_umb(group_normal, group_center, group_pos)
-            # new_feature = torch.cat([group_normal], dim=-1)  # N: 3
-            # new_feature = torch.cat([group_normal, group_pos], dim=-1)  # N+P: 4
-            # new_feature = torch.cat([group_center, group_normal], dim=-1)  # N+C: 6
-            # new_feature = torch.cat([group_center, group_normal, group_pos], dim=-1)  # N+P+C: 7
             new_feature = torch.cat([group_center, group_polar, group_normal, group_pos], dim=-1)  # N+P+CP: 10
         else:
             group_normal, group_center = check_nan_umb(group_normal, group_center)

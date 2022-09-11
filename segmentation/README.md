@@ -48,7 +48,7 @@ sh init.sh
   </thead>
   <tbody>
     <tr>
-      <td align="center">Point Transformer (our settings)</td>
+      <td align="center">Point Transformer <br> (our settings)</td>
       <td align="center">70.37 (official: 70.4)</td>
       <td align="center">77.02 (official: 76.5)</td>
       <td align="center">90.80 (official: 90.8)</td>

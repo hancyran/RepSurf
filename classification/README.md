@@ -80,7 +80,7 @@ python3 setup.py install
       <td align="center"><b>84.87</b></td>
       <td align="center">1.483M</td>
       <td align="center">None</td>
-      <td align="center"><a href="./models/repsurf/scanobjectnn/repsurf_ssg_umb.py">link</a></td>
+      <td align="center"><a href="models/repsurf/repsurf_ssg_umb.py">link</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1qJK8T3dhF6177Xla227aXPEeNtyNssLF/view?usp=sharing">google drive</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/17UDArfvNVjrJBTjr_HdxcOQipn0DWMMf/view?usp=sharing">google drive (6MB)</a></td>
     </tr>
@@ -89,7 +89,7 @@ python3 setup.py install
       <td align="center"><b>86.05</b></td>
       <td align="center">6.806M</td>
       <td align="center">None</td>
-      <td align="center"><a href="./models/repsurf/scanobjectnn/repsurf_ssg_umb_2x.py">link</a></td>
+      <td align="center"><a href="models/repsurf/repsurf_ssg_umb_2x.py">link</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/15HwmAi1erL68G08dzNQILSipwCIDfNAw/view?usp=sharing">google drive</a></td>
       <td align="center"><a href="https://drive.google.com/file/d/1yGPNt1REzxVwn8Guw-PFHFcwxvfueWgf/view?usp=sharing">google drive (27MB)</a></td>
     </tr>
@@ -100,7 +100,7 @@ python3 setup.py install
 * To download dataset:
 
 ```
-wget http://download.cs.stanford.edu/orion/scanobjectnn/h5_files.zip
+wget https://download.cs.stanford.edu/orion/scanobjectnn/h5_files.zip
 unzip h5_files.zip
 ln -s [PATH]/h5_files data/ScanObjectNN
 ```
@@ -111,13 +111,13 @@ ln -s [PATH]/h5_files data/ScanObjectNN
 * To train Umbrella RepSurf on ScanObjectNN:
 
 ```
-sh scripts/repsurf/scanobjectnn/repsurf_ssg_umb.sh
+sh scripts/scanobjectnn/repsurf_ssg_umb.sh
 ```
 
 * To train Umbrella RepSurf (2x setting) on ScanObjectNN:
 
 ```
-sh scripts/repsurf/scanobjectnn/repsurf_ssg_umb_2x.sh
+sh scripts/scanobjectnn/repsurf_ssg_umb_2x.sh
 ```
 
 ## Acknowledgment
