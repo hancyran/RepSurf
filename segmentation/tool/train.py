@@ -142,7 +142,8 @@ def main_worker(gpu, ngpus_per_node, argss):
             nn.SyncBatchNorm.convert_sync_batchnorm(model)
         model.cuda()
         # model parallel (Note: During DDP Training, enable 'find_unused_parameters' to freeze repsurf)
-        model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[gpu], find_unused_parameters=True)
+        model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[gpu],
+                                                          find_unused_parameters='repsurf' in args.model)
     else:
         # model
         model.cuda()
