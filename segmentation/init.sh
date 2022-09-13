@@ -13,6 +13,6 @@ pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f htt
 conda install -c anaconda h5py pyyaml -y
 conda install -c conda-forge sharedarray tensorboardx -y
 
-cd lib/pointops
+cd modules/pointops
 python3 setup.py install
 cd -

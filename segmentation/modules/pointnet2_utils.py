@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from lib.pointops.functions import pointops
+from modules.pointops.functions import pointops
 
 
 def sample_and_group(stride, nsample, xyz, points, offset, return_idx=False, num_sector=1):

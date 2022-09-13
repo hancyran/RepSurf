@@ -10,7 +10,7 @@ from torch import nn
 import torch.optim.lr_scheduler as lr_scheduler
 
 from dataset.S3DISDataLoader import S3DIS
-from lib.pointops.functions import pointops
+from modules.pointops.functions import pointops
 
 
 def main_process(args):

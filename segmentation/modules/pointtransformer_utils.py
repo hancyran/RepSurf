@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from lib.pointops.functions import pointops
+from modules.pointops.functions import pointops
 
 
 class PointTransformerLayer(nn.Module):

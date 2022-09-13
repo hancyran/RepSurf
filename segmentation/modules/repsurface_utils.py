@@ -9,7 +9,7 @@ import torch.nn.functional as F
 
 from modules.polar_utils import xyz2sphere
 from modules.recons_utils import cal_const, cal_normal, cal_center, check_nan_umb
-from lib.pointops.functions import pointops
+from modules.pointops.functions import pointops
 
 
 def sample_and_group(stride, nsample, center, normal, feature, offset, return_polar=False, num_sector=1, training=True):
