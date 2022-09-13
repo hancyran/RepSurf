@@ -99,6 +99,7 @@ sh init.sh
 cd ./data/S3DIS
 gdown https://drive.google.com/u/1/uc?id=1UDM-bjrtqoIR9FWoIRyqLUJGyKEs22fP
 tar zxf s3dis.tar.gz && rm s3dis.tar.gz
+cd -
 ```
 
 * To train one model (**Umbrella RepSurf, Point Transformer, PointNet2**) for S3DIS Area-5:
