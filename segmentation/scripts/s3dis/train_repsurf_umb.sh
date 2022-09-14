@@ -18,8 +18,8 @@ python3 tool/train.py --log_dir ${log_dir} --dataset S3DIS \
           --learning_rate 0.006 \
           --lr_decay 0.1 \
           --weight_decay 1e-2 \
+          --freeze_epoch 10 \
           --color_contrast \
           --color_shift \
           --color_jitter \
-          --freeze_epoch 10 \
           --hs_shift
