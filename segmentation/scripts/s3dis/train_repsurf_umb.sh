@@ -21,4 +21,5 @@ python3 tool/train.py --log_dir ${log_dir} --dataset S3DIS \
           --color_contrast \
           --color_shift \
           --color_jitter \
+          --freeze_epoch 10 \
           --hs_shift
