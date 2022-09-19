@@ -308,7 +308,7 @@ class UmbrellaSurfaceConstructor(nn.Module):
         group_xyz = self.sort_func(center, center, offset, offset, k=self.k)  # [N, K-1, 3 (points), 3 (coord.)]
 
         # normal
-        group_normal = cal_normal(group_xyz, random_inv=self.random_inv, is_group=True)
+        group_normal = cal_normal(group_xyz, offset, random_inv=self.random_inv, is_group=True)
         # coordinate
         group_center = cal_center(group_xyz)
         # polar

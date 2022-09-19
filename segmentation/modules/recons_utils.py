@@ -4,9 +4,10 @@ Date: 06/30/2022
 """
 
 import torch
+import numpy as np
 
 
-def cal_normal(group_xyz, random_inv=False, is_group=False):
+def cal_normal(group_xyz, offset, random_inv=False, is_group=False):
     """
     Calculate Normal Vector (Unit Form + First Term Positive)
 
@@ -25,8 +26,17 @@ def cal_normal(group_xyz, random_inv=False, is_group=False):
 
     # batch-wise random inverse normal vector (prob: 0.5)
     if random_inv:
-        random_mask = torch.randint(0, 2, (group_xyz.size(0), 1)).float() * 2. - 1.
-        random_mask = random_mask.to(unit_nor.device)
+        batch_prob = np.random.rand(offset.shape[0]) < 0.5
+        random_mask = []
+        sample_offset = [0] + list(offset.cpu().numpy())
+        for idx in range(len(sample_offset) - 1):
+            sample_mask = torch.ones((sample_offset[idx+1] - sample_offset[idx], 1), dtype=torch.float32)
+            if not batch_prob[idx]:
+                sample_mask *= -1
+            random_mask.append(sample_mask)
+        random_mask = torch.cat(random_mask, dim=0).to(unit_nor.device)
+        # random_mask = torch.randint(0, 2, (group_xyz.size(0), 1)).float() * 2. - 1.
+        # random_mask = random_mask.to(unit_nor.device)
         if not is_group:
             unit_nor = unit_nor * random_mask
         else:
