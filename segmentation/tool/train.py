@@ -220,6 +220,7 @@ def main_worker(gpu, ngpus_per_node, argss):
         if args.distributed:
             train_sampler.set_epoch(epoch)
         loss_train, mIoU_train, mAcc_train, allAcc_train = train(train_loader, model, criterion, optimizer, epoch)
+        scheduler.step()
 
         epoch_log = epoch + 1
         if main_process(args):
